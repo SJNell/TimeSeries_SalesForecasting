@@ -5,4 +5,4 @@ conda_env: conda.yml
 
 entry_points:
   main:
-    command: "python TimeSeries_SalesForecasting.py -r"
+    command: "python TimeSeries_SalesForecasting.py"
