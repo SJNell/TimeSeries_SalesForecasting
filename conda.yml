@@ -1,0 +1,12 @@
+name: py27
+channels:
+  - defaults
+dependencies:
+  - numpy=1.15.1
+  - pandas=0.23.4
+  - inspect
+  - matplotlib
+  - pip:
+    - mlflow
+    - scikit-learn=0.21.2
+    - seaborn=0.9.0

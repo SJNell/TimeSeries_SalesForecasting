@@ -1,0 +1,8 @@
+name: TimeSeries_SalesForecasting
+
+# conda_env: Corresponding conda environment
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "python TimeSeries_SalesForecasting.py -r"
